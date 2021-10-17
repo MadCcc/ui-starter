@@ -5,9 +5,11 @@
   "repository": "git@github.com:MadCcc/ui-starter.git",
   "author": "MadCcc <1075746765@qq.com>",
   "license": "MIT",
+  "typings": "lib/index.d.ts",
   "scripts": {
     "dev": "dumi dev",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build:types": "tsc -p tsconfig.build.json && cpr lib esm"
   },
   "lint-staged": {
     "components/**/*.ts?(x)": [
@@ -34,10 +36,13 @@
   "devDependencies": {
     "@commitlint/cli": "^13.2.1",
     "@commitlint/config-conventional": "^13.2.0",
+    "@types/react": "^17.0.30",
+    "@types/react-dom": "^17.0.9",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "@umijs/plugin-sass": "^1.1.1",
     "commitizen": "^4.2.4",
+    "cpr": "^3.0.1",
     "cz-conventional-changelog": "^3.3.0",
     "dumi": "^1.1.30",
     "eslint": "^7.31.0",

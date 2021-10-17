@@ -564,6 +564,13 @@
   dependencies:
     "@types/react" "^16"
 
+"@types/react-dom@^17.0.9":
+  version "17.0.9"
+  resolved "https://nexus.graviti.cn/repository/npmgroup/@types/react-dom/-/react-dom-17.0.9.tgz#441a981da9d7be117042e1a6fd3dac4b30f55add"
+  integrity sha1-RBqYHanXvhFwQuGm/T2sSzD1Wt0=
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-router-config@5.0.2":
   version "5.0.2"
   resolved "https://nexus.graviti.cn/repository/npmgroup/@types/react-router-config/-/react-router-config-5.0.2.tgz#4d3b52e71ed363a1976a12321e67b09a99ad6d10"
@@ -607,7 +614,7 @@
     "@types/history" "*"
     "@types/react" "*"
 
-"@types/react@*":
+"@types/react@*", "@types/react@^17.0.30":
   version "17.0.30"
   resolved "https://nexus.graviti.cn/repository/npmgroup/@types/react/-/react-17.0.30.tgz#2f8e6f5ab6415c091cc5e571942ee9064b17609e"
   integrity sha1-L45vWrZBXAkcxeVxlC7pBksXYJ4=
@@ -1851,6 +1858,16 @@ cosmiconfig@^7.0.0, cosmiconfig@^7.0.1:
     parse-json "^5.0.0"
     path-type "^4.0.0"
     yaml "^1.10.0"
+
+cpr@^3.0.1:
+  version "3.0.1"
+  resolved "https://nexus.graviti.cn/repository/npmgroup/cpr/-/cpr-3.0.1.tgz#b9a55038b7cd81a35c17b9761895bd8496aef1e5"
+  integrity sha1-uaVQOLfNgaNcF7l2GJW9hJau8eU=
+  dependencies:
+    graceful-fs "^4.1.5"
+    minimist "^1.2.0"
+    mkdirp "~0.5.1"
+    rimraf "^2.5.4"
 
 create-ecdh@^4.0.0:
   version "4.0.4"
@@ -3104,7 +3121,7 @@ gonzales-pe@^4.3.0:
   dependencies:
     minimist "^1.2.5"
 
-graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0:
+graceful-fs@^4.1.2, graceful-fs@^4.1.5, graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   version "4.2.8"
   resolved "https://nexus.graviti.cn/repository/npmgroup/graceful-fs/-/graceful-fs-4.2.8.tgz#e412b8d33f5e006593cbd3cee6df9f2cebbe802a"
   integrity sha1-5BK40z9eAGWTy9PO5t+fLOu+gCo=
@@ -4552,6 +4569,13 @@ mj-context-menu@^0.6.1:
   version "0.6.1"
   resolved "https://nexus.graviti.cn/repository/npmgroup/mj-context-menu/-/mj-context-menu-0.6.1.tgz#a043c5282bf7e1cf3821de07b13525ca6f85aa69"
   integrity sha1-oEPFKCv34c84Id4HsTUlym+Fqmk=
+
+mkdirp@~0.5.1:
+  version "0.5.5"
+  resolved "https://nexus.graviti.cn/repository/npmgroup/mkdirp/-/mkdirp-0.5.5.tgz#d91cefd62d1436ca0f41620e251288d420099def"
+  integrity sha1-2Rzv1i0UNsoPQWIOJRKI1CAJne8=
+  dependencies:
+    minimist "^1.2.5"
 
 ms@2.0.0:
   version "2.0.0"
@@ -6044,6 +6068,13 @@ reusify@^1.0.4:
   version "1.0.4"
   resolved "https://registry.npmjs.org/reusify/-/reusify-1.0.4.tgz"
   integrity sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
+
+rimraf@^2.5.4:
+  version "2.7.1"
+  resolved "https://nexus.graviti.cn/repository/npmgroup/rimraf/-/rimraf-2.7.1.tgz#35797f13a7fdadc566142c29d4f07ccad483e3ec"
+  integrity sha1-NXl/E6f9rcVmFCwp1PB8ytSD4+w=
+  dependencies:
+    glob "^7.1.3"
 
 rimraf@^3.0.2:
   version "3.0.2"
