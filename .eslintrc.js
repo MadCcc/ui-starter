@@ -10,7 +10,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
     'plugin:prettier/recommended',
-    'plugin:jest/recommended',
     'plugin:import/typescript',
     'plugin:markdown/recommended',
   ],
@@ -22,7 +21,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['react', 'babel', 'jest', 'react-hooks', 'markdown', '@typescript-eslint'],
+  plugins: ['react', 'babel', 'react-hooks', 'markdown', '@typescript-eslint'],
   rules: {
     'prettier/prettier': [
       'warn',
